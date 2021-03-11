@@ -6,71 +6,94 @@ body {
 .profile {
     width: 175px;
     margin-bottom: 50px;
-    border-radius: 50px
+    border-radius: 50%;
 }
 
 #welcome {
+
     position: absolute;
     height: 800px;
-    color: white;
+    color: #FFFFFF;
     left: 0;
-    right: 0;
     top: 0;
     bottom: 0;
-    opacity: .83;
+    right: 0;
     background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    opacity: 0.83;
     display: table;
     width: 100%;
     height: 100%;
-    text-align: center;
-}
-
-.parallax inner {
-    display: table-cell;
-    position: relative;
-    text-align: center;
-    vertical-align: middle;
+    z-index: 9;
 }
 
 h1 {
-    font-size: 40px line-height: 1.2;
-    font-family: cursive;
+
+    font-size: 40px;
+    font-family: sans-serif;
     font-weight: 300;
+
 }
 
 #name {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 1.2;
-    font-family: serif;
-    font-weight: 300;
+    font-family: 'Cinzel Decorative', cursive;
 }
 
 h2 {
-    font-size: 40px;
-    line-height: 1.2;
-    font-family: sans-serif;
-    font-weight: 300;
+    font-family: monospace
 }
 
-#bio {
+#Bio {
+
     padding: 50px;
     text-align: center;
-    font-size: 30px;
-    color: darkblue;
 }
 
 .line {
     height: 6px;
-    background-color: black;
+    background-color: #000;
     width: 70px;
     margin: 8px auto;
 }
 
-p1 {
+p {
     max-width: 450px;
     margin: 25px auto;
     font-size: 17px;
     line-height: 1.3;
-    font-family: monospace;
-    margin: 25px auto;
+}
+
+.parallax-inner {
+
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.menu {
+
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 602px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.link {
+    float: none;
+    color: mediumpurple;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+}
+.link: hover {
+background-color: cornflowerblue    
 }
