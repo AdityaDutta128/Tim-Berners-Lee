@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 }
 
 .profile {
@@ -44,7 +45,7 @@ h2 {
     font-family: monospace
 }
 
-#Bio {
+#about {
 
     padding: 50px;
     text-align: center;
@@ -84,9 +85,9 @@ p {
     cursor: pointer;
 }
 
-.link {
+.link1 {
     float: none;
-    color: mediumpurple;
+    color: black;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 9px;
@@ -94,6 +95,18 @@ p {
     font-family: 'Shadows Into Light', cursive;
     font-size: 20px;
 }
-.link: hover {
-background-color: cornflowerblue    
+.link1:hover{
+background-color: blueviolet;   
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+.article:hover {
+    color: fuchsia;
 }
