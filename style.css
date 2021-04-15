@@ -24,7 +24,7 @@ body {
     display: table;
     width: 100%;
     height: 100%;
-    z-index: 9;
+    z-index: 10;
 }
 
 h1 {
@@ -75,25 +75,23 @@ p {
 }
 
 .menu {
-
-    list-style: none;
     font-family: sans-serif;
-    position: absolute;
-    top: 10px;
+    position: fixed;
+    top: 0px;
     right: 602px;
     z-index: 10;
-    cursor: pointer;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
 }
 
 .link1 {
-    float: none;
     color: black;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
+    padding-left: 33px;
+    padding-right: 25px;
     font-family: 'Shadows Into Light', cursive;
     font-size: 20px;
+    display: inline;
 }
 .link1:hover{
 background-color: blueviolet;   
@@ -109,4 +107,21 @@ a{
 
 .article:hover {
     color: fuchsia;
+}
+
+#contact {
+background-color: blue
+}
+
+#contact iframe{
+    width:100%;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    color: black;
+    text-shadow: none;
 }
